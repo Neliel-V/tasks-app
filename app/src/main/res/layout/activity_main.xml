@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/mainactivitylinearlayout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:onClick="AddItemDialog"
+            android:layout_width="150dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/smooth_corner_button">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circular_view"
+                    android:src="@drawable/ic_add_black_24dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="ADD TASK"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:onClick="openViewpage"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginBottom="5dp"
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="#000">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/circular_view"
+                    android:src="@drawable/ic_view_list_black_24dp"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="VIEW TASKS"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginBottom="5dp"
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="#000">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/circular_view"
+                    android:src="@drawable/ic_backup_black_24dp"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="SAVE TO CLOUD"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task Set</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem, commodi consequatur debitis dicta eius eum harum ipsa mollitia nam officiis perspiciatis placeat quis quod rem reprehenderit sint voluptatem, voluptatum.</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the terms and conditions</string>
+    <string name="title_activity_view_tasks">Tasks Set</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
